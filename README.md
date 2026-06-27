@@ -20,3 +20,11 @@ npm install retries-queue
 ## License
 
 MIT
+
+
+## Usage
+
+```typescript
+import { } from 'retries-queue';
+// See API section for available functions
+```
