@@ -1,3 +1,6 @@
+
+// Type exports for consumers
+// Add specific types as needed
 export async function allSettledResults<T>(promises: Promise<T>[]): Promise<{ fulfilled: T[]; rejected: Error[] }> {
   const results = await Promise.allSettled(promises);
   const fulfilled: T[] = [];
